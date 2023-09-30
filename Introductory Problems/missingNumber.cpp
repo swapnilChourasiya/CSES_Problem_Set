@@ -3,16 +3,16 @@
 using namespace std;
 
 int main() {
-   int n;cin>>n;
-   int sumGiven=0;
-   int sumOfNNumbers = n*(n+1)/2;
+   long long n;cin>>n;
+   long long sumGiven=0;
+   long long sumOfNNumbers = n*(n+1)/2;
    n = n-1;
    while(n--) {
-       int x; cin>>x;
+       long long x; cin>>x;
        sumGiven +=x;
-       
    }
    
    cout<<sumOfNNumbers - sumGiven<<endl;
-       
+    
+    return 0;
 }
